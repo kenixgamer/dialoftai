@@ -33,7 +33,7 @@ const Home = () => {
         />
       </div>
       <div className="relative max-w-7xl mx-auto px-4 py-10 text-center">
-        <h1 className="text-white sm:mt-20 font-helvetica text-4xl sm:text-[55px] md:text-[70px] leading-[1.27] tracking-[0px]">
+        <h1 className="text-white sm:mt-20 font-helvetica text-4xl sm:text-[50px] leading-[1.27] tracking-[0px]">
         Transform Your Business With AI Phone Agents That{" "}
         <div className="word inline-block font-bold text-2xl sm:text-[50px]">
           {/*  <p className="text-xl lg:text-2xl mb-4 font-bold">AI Phone Agents:</p> */}
