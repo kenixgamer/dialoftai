@@ -14,7 +14,7 @@ const Home = () => {
   const [showBookDemo, setShowBookDemo] = useState(false);
   return (
     <>
-    <div onClick={() => setShowBookDemo(!showBookDemo)} className="min-h-screen bg-black text-white">
+    <div onClick={() => setShowBookDemo(false)} className="min-h-screen bg-black text-white">
       <Navigation descriptionRef={descriptionRef} />
       <main className="relative">
       <div className="absolute flex items-center justify-center gap-10 top-0 left-0 overflow-hidden">
@@ -73,7 +73,10 @@ const Home = () => {
         </p>
         <div className="flex flex-row justify-center gap-4">
         <button
-          onClick={() => setShowBookDemo(!showBookDemo)}
+          onClick={(event) => {
+            event.stopPropagation();
+            setShowBookDemo(!showBookDemo)
+          }}
           className="bg-gray-800 flex gap-3 hover:bg-gray-700 text-white px-5 py-3 border max-w-60 rounded-full"
         >
         <span className="whitespace-nowra">See A Demo</span>
@@ -95,7 +98,11 @@ const Home = () => {
     </div>
     {showBookDemo && (
       <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center" onClick={() => setShowBookDemo(false)}>
-      <MdCancel onClick={() => setShowBookDemo(!showBookDemo)} size={45} className="text-white absolute top-20 right-0 sm:right-5 sm:top-8 lg:right-16 xl:right-60 xl:top-20 cursor-pointer"/>
+      <MdCancel onClick={() => {
+        console.log(showBookDemo);
+        setShowBookDemo(!showBookDemo) 
+        return
+        }} size={45} className="text-white absolute top-20 right-0 sm:right-5 sm:top-8 lg:right-16 xl:right-60 xl:top-20 cursor-pointer"/>
       <iframe
        width="80%"
        height="80%"
