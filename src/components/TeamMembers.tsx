@@ -30,6 +30,12 @@ const TeamMembers = () => {
             linkedIn: 'https://www.linkedin.com/in/cherish-jain-8464b91ba/',
              imageUrl : "/Cherish.png"
         },
+        {
+            name: 'Manil Shah',
+            role: 'Sales and Business Development Lead',
+            linkedIn: 'https://www.linkedin.com/in/maanilshah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+             imageUrl : "/Manil.JPG"
+        },
     ];
 
   return (
