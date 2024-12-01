@@ -2,7 +2,7 @@ import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="bg-black text-white flex items-start lg:items-start lg:ml-32 justify-center flex-col w-full sm:p-8 p-4 rounded-lg">
+    <div className="bg-black text-white flex items-start lg:items-start lg:pl-32 justify-center flex-col w-full sm:p-8 p-4 rounded-lg">
       {/* Title */}
       <h1 className="text-2xl sm:text-4xl font-bageta font-bold mb-6">
         Contact Us

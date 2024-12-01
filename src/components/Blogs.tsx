@@ -36,7 +36,7 @@ const Blogs = () => {
      <div className="flex p-5 items-center flex-col justify-center max-w-7xl ">
       <h1 className="text-start block sm:block text-2xl md:text-3xl mb-8 font-bold w-full font-helvetica my-2">Blogs</h1>
      {/* <h1 className="text-start sm:hidden text-2xl font-bold w-full font-helvetica my-2 py-2">Blogs</h1> */}
-   <div className="flex">
+   <div className="flex flex-col sm:flex-row">
    <img 
     loading="lazy"
     className="hidden sm:block max-w-lg md:min-w-[40%] w-full  rounded-lg min-w-[50%]"
