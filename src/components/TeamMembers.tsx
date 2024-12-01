@@ -2,7 +2,7 @@ const TeamMembers = () => {
     const teamMembers = [
         {
             name: 'Kavish Shah',
-            role: 'Co-Founder of Dialoft AI',
+            role: 'Founder',
             linkedIn: 'https://www.linkedin.com/in/kavish2004/',
             imageUrl : "/kavish.avif"
         },
