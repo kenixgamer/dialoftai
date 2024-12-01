@@ -59,8 +59,8 @@ const HumanVsAI = () => {
                 <thead>
                     <tr className="">
                         <th className="text-lg sm:text-4xl font-bold sm:px-4 text-start sm:py-2 gradient-text-alt-2">Aspect</th>
-                        <th className="text-lg sm:text-4xl font-bold sm:px-4 text-start sm:py-2 gradient-text-alt-3">Human Tellicaller</th>
-                        <th className="text-lg sm:text-4xl font-bold sm:px-4 text-start sm:py-2 gradient-text-alt-1">AI Tellicaller</th>
+                        <th className="text-lg sm:text-4xl font-bold sm:px-4 text-start sm:py-2 gradient-text-alt-3">Human Telecaller</th>
+                        <th className="text-lg sm:text-4xl font-bold sm:px-4 text-start sm:py-2 gradient-text-alt-1">AI Telecaller</th>
                     </tr>
                 </thead>
                 <tbody>

@@ -1,12 +1,17 @@
 import { useEffect } from "react";
 import BookDemoButton from "../BookDemoButton";
-
+import { Helmet } from 'react-helmet-async';
 const Blog1 = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
+    <>
+     <Helmet>
+        <title>7 Industries Revolutionized by AI Phone Agents (And Why Yours Should Be Next)</title>
+        <meta name="description" content="Customer support technology is changing faster than ever, and Dialoft AI is here to help businesses keep up. Our AI phone agent software makes it easier to connect with customers, offering faster, more personal, and more efficient service every time." />
+      </Helmet>
       <div className="bg-black font-helvetica flex items-center justify-center w-screen">
       <div className="base-image text-white lg:max-w-[70%] p-8 md:p-12">
         <div className="flex flex-col sm:flex-row">
@@ -243,6 +248,8 @@ const Blog1 = () => {
         </div>
       </div>
     </div>
+    </>
+     
   );
 };
 

@@ -84,13 +84,13 @@ body {
   .word {
     overflow: hidden;
     width: full;
-    height: 50px; /* Adjusted for better text visibility */
+    height: 60px; /* Adjusted for better text visibility */
   }
   
   .word span {
     display: block;
-    height: 50px;
-    line-height: 50px; /* Ensures vertical centering */
+    height: 60px;
+    line-height: 60px; /* Ensures vertical centering */
     /* padding-left: 10px; */
     animation: spin_words 8s infinite ease-in-out;
     text-align: start;
@@ -101,28 +101,28 @@ body {
       transform: translateY(0);
     }
     11.11% {
-      transform: translateY(-50px);
+      transform: translateY(-60px);
     }
     22.22% {
-      transform: translateY(-100px);
+      transform: translateY(-120px);
     }
     33.33% {
-      transform: translateY(-150px);
+      transform: translateY(-180px);
     }
     44.44% {
-      transform: translateY(-200px);
+      transform: translateY(-240px);
     }
     55.55% {
-      transform: translateY(-250px);
-    }
-    66.66% {
       transform: translateY(-300px);
     }
+    66.66% {
+      transform: translateY(-360px);
+    }
     77.77% {
-      transform: translateY(-350px);
+      transform: translateY(-420px);
     }
     88.88% {
-      transform: translateY(-400px);
+      transform: translateY(-480px);
     }
     100% {
       transform: translateY(0);
