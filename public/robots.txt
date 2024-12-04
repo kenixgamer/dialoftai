@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ai-tellicaller.vercel.app/sitemap.xml
+Sitemap: https://www.dialoftai.com/sitemap.xml
