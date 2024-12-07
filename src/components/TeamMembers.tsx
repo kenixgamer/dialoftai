@@ -4,19 +4,19 @@ const TeamMembers = () => {
             name: 'Kavish Shah',
             role: 'Founder',
             linkedIn: 'https://www.linkedin.com/in/kavish2004/',
-            imageUrl : "/kavish.avif"
+            imageUrl : "/Kavish2.avif"
         },
         {
             name: 'Tejas Dave',
             role: 'Co-Founder and Marketing Lead',
             linkedIn: 'https://www.linkedin.com/in/tejash-dave-social-media-helper/',
-             imageUrl : "/Tejas.avif"
+             imageUrl : "/Tejas2.avif"
         },
         {
             name: 'Cherish Jain',
             role: 'Social Media Strategist',
             linkedIn: 'https://www.linkedin.com/in/cherish-jain-8464b91ba/',
-             imageUrl : "/Cherish.avif"
+             imageUrl : "/Cherish2.avif"
         },
         {
             name: 'Ansh Vachheta',
@@ -34,7 +34,7 @@ const TeamMembers = () => {
             name: 'Manil Shah',
             role: 'Sales and Business Development Lead',
             linkedIn: 'https://www.linkedin.com/in/maanilshah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-             imageUrl : "/Manil.avif"
+             imageUrl : "/Manil2.avif"
         },
     ];
 
