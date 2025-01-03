@@ -10,6 +10,7 @@ import TrustedBy from "../components/TrustedBy";
 import DialoftAI from "./DialoftAI";
 import { MdCancel } from "react-icons/md";
 import { Helmet } from "react-helmet-async";
+import Footer from "./Footer";
 const Home = () => {
   const descriptionRef = useRef<HTMLDivElement | null>(null);
   const [showBookDemo, setShowBookDemo] = useState(false);
@@ -143,6 +144,7 @@ const Home = () => {
           <CustomerReview />
           <Blogs />
           <Contact />
+          <Footer/>
         </main>
       </div>
       {showBookDemo && (
