@@ -18,6 +18,7 @@ const Navigation = ({descriptionRef} : any) => {
     </div>
     <div className="hidden md:flex" style={{gap : "21px"}}>
       <div className="flex items-center  space-x-10 lg:space-x-54 text-lg font-helvetica font-medium" style={{color : "#848895"}}>
+      <Link to="/pricing" className="hover:text-purple-400 ">Pricing</Link>
       <Link to="/Human-vs-AI" className="hover:text-purple-400 ">Human VS AI</Link>
       <a href="#" onClick={handleClick}  className="hover:text-purple-400 ">Industries</a>
       <a href="#" onClick={scrollToBottom} className="hover:text-purple-400 ">Contact us</a>
