@@ -1,6 +1,10 @@
+import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const PrivacyPolicy = () => {
+  useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <>
       <Helmet>

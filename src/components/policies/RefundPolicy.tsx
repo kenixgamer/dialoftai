@@ -1,6 +1,11 @@
 import { Helmet } from 'react-helmet-async';
+import { useEffect } from 'react';
 
 const RefundPolicy = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Helmet>
@@ -55,7 +60,7 @@ const RefundPolicy = () => {
           </section>
           
           <section className="mt-12">
-            <p>If you have questions or concerns regarding billing, please contact our support team at support@dialoft.com</p>
+            <p>If you have questions or concerns regarding billing, please contact our support team at support@dialoftai.com</p>
           </section>
         </div>
       </div>
