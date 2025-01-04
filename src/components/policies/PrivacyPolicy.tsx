@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
 
           <section className="space-y-6">
             <p className="text-gray-300">
-              This Statement of Privacy applies to Dialoft AI and Dialoft AI Inc., and governs data collection and usage. For the purposes of this Privacy Policy, unless otherwise noted, all references to Dialoft AI include www.dialoftai.com and Dialoft AI. The Dialoft AI application is an AI-powered telecalling application. By using the Dialoft AI application, you consent to the data practices described in this statement.
+              This Statement of Privacy applies to Dialoft AI and governs data collection and usage. For the purposes of this Privacy Policy, unless otherwise noted, all references to Dialoft AI include www.dialoftai.com and Dialoft AI. The Dialoft AI application is an AI-powered telecalling application. By using the Dialoft AI application, you consent to the data practices described in this statement.
             </p>
 
             <div className="space-y-6">

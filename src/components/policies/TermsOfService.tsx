@@ -18,7 +18,7 @@ const TermsOfService = () => {
           <p className="text-gray-400 mb-4">Last Updated: January 2, 2025</p>
 
           <p className="mb-6">
-            This Agreement is between Dialoft AI Inc. (Owner of Dialoft AI) and the person (natural or legal) accessing or using the Product. These Terms of Service ("Terms") constitute an agreement between Dialoft AI Inc. ("Dialoft AI," "we," "us") and you, governing your use of the Site and services (as defined below) offered by Dialoft AI. By signing up, accessing, or using the Product, you acknowledge your acceptance of this Agreement and consent to be bound by its terms and conditions.
+            This Agreement is between Dialoft AI (Owner of Dialoft AI) and the person (natural or legal) accessing or using the Product. These Terms of Service ("Terms") constitute an agreement between Dialoft AI ("Dialoft AI," "we," "us") and you, governing your use of the Site and services (as defined below) offered by Dialoft AI. By signing up, accessing, or using the Product, you acknowledge your acceptance of this Agreement and consent to be bound by its terms and conditions.
           </p>
           <p className="mb-6">
             If you are accessing or using the Product on behalf of your company, you certify that you have the authority to accept this Agreement on behalf of your firm. Do not use the Site if you do not agree to these Terms or if your jurisdiction does not honor them. Persons under the age of 13 are not authorized to use the Site.
@@ -60,7 +60,7 @@ const TermsOfService = () => {
               <li>Effective Date: The date the Customer first accepts this Agreement.</li>
               <li>Invoice Period: Monthly.</li>
               <li>Payment Period: One day from the date of invoice.</li>
-              <li>Provider: Dialoft AI Inc.</li>
+              <li>Provider: Dialoft AI</li>
               <li>Subscription Start Date: Date of account creation.</li>
               <li>Subscription Period: Depend on which pricing plan you select.</li>
               <li>Non-Renewal Notice Period: A minimum of 30 days before the current subscription period ends.</li>
