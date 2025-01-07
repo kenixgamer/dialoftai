@@ -120,35 +120,35 @@ const PricingPage = () => {
     'Customer sentiment analysis'
   ];
 
-  const enterpriseFeatures = [
-    {
-      category: 'Scale',
-      features: [
-        'Custom minute packages',
-        'Unlimited concurrent calls',
-        'Unlimited workspaces',
-        'Custom deployment'
-      ]
-    },
-    {
-      category: 'Support',
-      features: [
-        '24/7 dedicated support',
-        'Dedicated account manager',
-        'Custom contract terms',
-        'Priority SLA'
-      ]
-    },
-    {
-      category: 'Custom Solutions',
-      features: [
-        'Custom analytics integration',
-        'Custom API access',
-        'Volume discounts',
-        'Custom security requirements'
-      ]
-    }
-  ];
+  // const enterpriseFeatures = [
+  //   {
+  //     category: 'Scale',
+  //     features: [
+  //       'Custom minute packages',
+  //       'Unlimited concurrent calls',
+  //       'Unlimited workspaces',
+  //       'Custom deployment'
+  //     ]
+  //   },
+  //   {
+  //     category: 'Support',
+  //     features: [
+  //       '24/7 dedicated support',
+  //       'Dedicated account manager',
+  //       'Custom contract terms',
+  //       'Priority SLA'
+  //     ]
+  //   },
+  //   {
+  //     category: 'Custom Solutions',
+  //     features: [
+  //       'Custom analytics integration',
+  //       'Custom API access',
+  //       'Volume discounts',
+  //       'Custom security requirements'
+  //     ]
+  //   }
+  // ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 text-white p-8">
@@ -166,7 +166,7 @@ const PricingPage = () => {
           ))}
         </div>
 
-        <Card className="mt-8 bg-gradient-to-br from-indigo-950 via-blue-950 to-slate-900 border-indigo-400/20 backdrop-blur-lg relative overflow-hidden shadow-2xl">
+        {/* <Card className="mt-8 bg-gradient-to-br from-indigo-950 via-blue-950 to-slate-900 border-indigo-400/20 backdrop-blur-lg relative overflow-hidden shadow-2xl">
           <div className="absolute inset-0">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 via-indigo-500/10 to-purple-500/10 animate-pulse" />
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-700/20 via-transparent to-transparent" />
@@ -213,7 +213,7 @@ const PricingPage = () => {
               </div>
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
         
         <Card className="mt-16 bg-gray-900/50 border-gray-800 backdrop-blur-sm">
           <CardHeader>
