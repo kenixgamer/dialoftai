@@ -10,6 +10,7 @@ const Blog4 = () => {
      <Helmet>
         <title>Top 10 Essential Features of AI-Based Telephony Solutions</title>
         <meta name="description" content="Uncover the game-changing features of AI phone systems that are revolutionizing customer service. This comprehensive guide explores how Dialoft AI's advanced telephony solutions offer natural voices, context awareness, seamless integrations, and continuous learning to deliver unprecedented customer support experiences." />
+        <meta name="keywords" content="ai voice chat, ai call bot, ai phone call, ai call center, conversation ai" />
       </Helmet>
     <div className="bg-black font-helvetica flex items-center justify-center w-screen">
     <div className="base-image text-white lg:max-w-[70%] p-8 md:p-12">

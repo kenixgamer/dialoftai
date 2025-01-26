@@ -10,7 +10,7 @@ const Blog2 = () => {
      <Helmet>
         <title>Revolutionizing Customer Support: The Dialoft AI Advantage</title>
         <meta name="description" content="Explore the future of customer service with AI-powered solutions that deliver fast, efficient, and personalized interactions. This blog reveals how Dialoft AI leverages machine learning and natural language processing to create seamless customer experiences, reduce support costs, and provide intelligent insights for businesses." />
-        {/* <meta name="keywords" content="Changing the Basics of Customer Support with AI" /> */}
+        <meta name="keywords" content="ai voice chat, ai call bot, ai phone call, ai call center, conversation ai" />
       </Helmet>
       <div className="bg-black font-helvetica flex items-center justify-center w-screen">
       <div className="base-image text-white lg:max-w-[70%] p-8 md:p-12">

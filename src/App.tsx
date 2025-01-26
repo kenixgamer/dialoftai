@@ -16,11 +16,11 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Home/>}></Route>
-      <Route path="/7 Industries Revolutionized by AI Phone Agents (And Why Yours Should Be Next)" element={<Blog1/>}></Route>
+      <Route path="/7_Industries_Revolutionized" element={<Blog1/>}></Route>
        <Route path="/Human-vs-AI" element={<HumanVsAI/>}></Route>
-       <Route path="/blog2" element={<Blog2/>}></Route>
-      <Route path="/blog3" element={<Blog3/>}></Route>
-      <Route path="/blog4" element={<Blog4/>}></Route> 
+       <Route path="/Revolutionizing_Customer_Support" element={<Blog2/>}></Route>
+      <Route path="/Your_Guide_to_Adopting_AI-Driven" element={<Blog3/>}></Route>
+      <Route path="/Top_10_Essential_Features" element={<Blog4/>}></Route> 
       <Route path="/team" element={<TeamMembers/>}></Route> 
       <Route path='pricing' element={<PricingPage/>}></Route>
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />

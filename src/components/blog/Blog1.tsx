@@ -11,6 +11,7 @@ const Blog1 = () => {
      <Helmet>
         <title>7 Industries Revolutionized by AI Phone Agents (And Why Yours Should Be Next)</title>
         <meta name="description" content="Customer support technology is changing faster than ever, and Dialoft AI is here to help businesses keep up. Our AI phone agent software makes it easier to connect with customers, offering faster, more personal, and more efficient service every time." />
+        <meta name="keywords" content="ai voice chat, ai call bot, ai phone call, ai call center, conversation ai" />
       </Helmet>
       <div className="bg-black font-helvetica flex items-center justify-center w-screen">
       <div className="base-image text-white lg:max-w-[70%] p-8 md:p-12">

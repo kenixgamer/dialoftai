@@ -20,16 +20,12 @@ const Home = () => {
       <Helmet>
         <meta
           name="keywords"
-          content="AI, tellicaller, automation, communication"
+          content="voice bot, ai voice , voice ai, ai assistant, phone callapp"
         />
         <meta
           name="description"
           content="Transform your business communication with ai voice agents. Automate inbound and outbound phone calls with human-like AI, tailor-made for enhanced sales, customer support, and operational efficiency. Experience the seamless integration and customizable voices that redefine every call as a revenue-generating opportunity."
         />
-        <meta
-          name="keywords"
-          content="voice bot, voice ai, ai voice bot, ai voice chat, ai assistant, ai call bot, ai phonecall, ai voice, phone call, voice call, ai voice call, make a phone call, ai telecaller, ai telephone"
-          />
       </Helmet>
       <div
         onClick={() => setShowBookDemo(false)}

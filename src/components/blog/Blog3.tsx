@@ -10,6 +10,7 @@ const Blog3 = () => {
      <Helmet>
         <title>Your Guide to Adopting AI-Driven Call Centers with Dialoft AI</title>
         <meta name="description" content="Dive into the evolution of customer service from traditional call centers to advanced AI-powered systems. Learn how Dialoft AI enables businesses to provide 24/7, personalized customer care with lower overhead, improved efficiency, and a human-like touch that transforms customer interactions." />
+        <meta name="keywords" content="ai voice chat, ai call bot, ai phone call, ai call center, conversation ai" />
       </Helmet>
      <div className="bg-black font-helvetica flex items-center justify-center w-screen">
     <div className="base-image text-white lg:max-w-[70%] p-8 md:p-12">

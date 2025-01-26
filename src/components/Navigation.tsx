@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import BookDemoButton from "./BookDemoButton"
 import { scrollToBottom } from "."
+import { Button } from "./ui/button"
 
 const Navigation = ({descriptionRef} : any) => {
   const handleClick = () => {
@@ -25,7 +26,13 @@ const Navigation = ({descriptionRef} : any) => {
       <Link to={'/team'} className="hover:text-purple-400 ">Team</Link>
       </div>
       <div className="">
-      <BookDemoButton/>
+        <button
+style={{background: ' linear-gradient(96.13deg, #8C01FA -11.84%, #000000 117.41%)'}}
+    className="font-helvetica text-white px-6 rounded-3xl py-2 grad max-w-40">
+  <a href="https://dashboard.dialoftai.com/" target="_blank" rel="noopener noreferrer">          Try Out Free
+  </a>
+  </button>
+
       </div>
     </div>
   </nav>
