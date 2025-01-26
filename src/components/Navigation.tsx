@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom"
-import BookDemoButton from "./BookDemoButton"
 import { scrollToBottom } from "."
-import { Button } from "./ui/button"
 
 const Navigation = ({descriptionRef} : any) => {
   const handleClick = () => {
