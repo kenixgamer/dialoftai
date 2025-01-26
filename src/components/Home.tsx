@@ -54,62 +54,56 @@ const Home = () => {
           </div>
           <div className="relative max-w-7xl mx-auto px-4 py-10 text-center">
             <h1 className="text-white sm:mt-20 font-helvetica text-3xl sm:text-[50px] md:text-[60px] 3xl:text-[70px] leading-[1.27] tracking-[0px]">
-              Transform Your Business With AI Phone Agents That{" "}
+            Automate Outbound Calls With Voice AI Agents That{" "}
               <div className="word inline-block font-bold text-3xl sm:text-[50px]  md:text-[60px] 3xl:text-[70px]">
                 {/*  <p className="text-xl lg:text-2xl mb-4 font-bold">AI Phone Agents:</p> */}
                 <span
                   style={{ color: "#8C01FA" }}
                   className="block capitalize-first-word"
                 >
-                  Boost Business
+                  Qualify Leads
                 </span>
                 <span
                   style={{ color: "#8C01FA" }}
                   className="capitalize-first-word block"
                 >
-                  handle support 24/7
+                  Cold Call Prospects
                 </span>
                 <span
                   style={{ color: "#8C01FA" }}
                   className="capitalize-first-word block"
                 >
-                  convert prospects
+                  Drive Sales
                 </span>
                 <span
                   style={{ color: "#8C01FA" }}
                   className="capitalize-first-word block"
                 >
-                  book appointments
+                  Book Appointments
                 </span>
                 <span
                   style={{ color: "#8C01FA" }}
                   className="capitalize-first-word block"
                 >
-                  prequalify leads
+                  Remind & Notify
                 </span>
                 <span
                   style={{ color: "#8C01FA" }}
                   className="capitalize-first-word block"
                 >
-                  cold call leads
+                  Follow Up 
                 </span>
                 <span
                   style={{ color: "#8C01FA" }}
                   className="capitalize-first-word block"
                 >
-                  drive sales
+                   Collect Feedback
                 </span>
                 <span
                   style={{ color: "#8C01FA" }}
                   className="capitalize-first-word block"
                 >
-                  reduce costs
-                </span>
-                <span
-                  style={{ color: "#8C01FA" }}
-                  className="capitalize-first-word block"
-                >
-                  sound human
+                  Conduct Surveys
                 </span>
               </div>
             </h1>

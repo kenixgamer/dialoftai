@@ -92,7 +92,7 @@ body {
     height: 60px;
     line-height: 60px; /* Ensures vertical centering */
     /* padding-left: 10px; */
-    animation: spin_words 8s infinite ease-in-out;
+    animation: spin_words 7s infinite ease-in-out;
     text-align: start;
   }
   
@@ -100,29 +100,26 @@ body {
     0% {
       transform: translateY(0);
     }
-    11.11% {
+    12.5% {
       transform: translateY(-60px);
     }
-    22.22% {
+    25% {
       transform: translateY(-120px);
     }
-    33.33% {
+    37.5% {
       transform: translateY(-180px);
     }
-    44.44% {
+    50% {
       transform: translateY(-240px);
     }
-    55.55% {
+    62.5% {
       transform: translateY(-300px);
     }
-    66.66% {
+    75% {
       transform: translateY(-360px);
     }
-    77.77% {
+    87.5% {
       transform: translateY(-420px);
-    }
-    88.88% {
-      transform: translateY(-480px);
     }
     100% {
       transform: translateY(0);
@@ -193,4 +190,3 @@ body {
     @apply bg-background text-foreground;
     }
 }
-  

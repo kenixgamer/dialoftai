@@ -2,14 +2,14 @@ import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="bg-black text-white flex items-start lg:items-start lg:pl-32 justify-center flex-col w-full sm:p-8 p-4 rounded-lg">
+    <div className="bg-black text-white flex items-start lg:items-start lg:pl-32 justify-center flex-col w-full sm:p-6 p-4 rounded-lg">
       {/* Title */}
-      <h1 className="text-2xl sm:text-4xl font-bageta font-bold mb-6">
+      <h1 className="text-2xl sm:text-4xl font-bageta font-bold mb-3">
         Contact Us
       </h1>
 
       {/* Contact Details */}
-      <div className="space-y-6 text-base sm:text-lg">
+      <div className="space-y-3 mt-2 text-base sm:text-lg">
         {/* Phone */}
         <div className="flex items-center space-x-4">
           <svg
@@ -57,7 +57,7 @@ const Contact = () => {
         </div>
         <div className="flex  items-center sm:w-32 justify-around w-full">
           <a
-            href="https://twitter.com"
+            href="https://x.com/dialoft_ai"
             target="_blank"
             rel="AITellicaller Twitter"
             aria-label="AITellicaller Twitter"
@@ -76,7 +76,7 @@ const Contact = () => {
             </svg>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/dialoft_ai"
             target="_blank"
             rel="AITellicaller Instagram"
             aria-label="AITellicaller Instagram"
@@ -112,7 +112,7 @@ const Contact = () => {
             </svg>
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/company/dialoft-ai"
             target="_blank"
             rel="AITellicaller Linkedin"
             aria-label="AITellicaller Linkedin"

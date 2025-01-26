@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Home/>}></Route>
-      <Route path="/blog1" element={<Blog1/>}></Route>
+      <Route path="/7 Industries Revolutionized by AI Phone Agents (And Why Yours Should Be Next)" element={<Blog1/>}></Route>
        <Route path="/Human-vs-AI" element={<HumanVsAI/>}></Route>
        <Route path="/blog2" element={<Blog2/>}></Route>
       <Route path="/blog3" element={<Blog3/>}></Route>
