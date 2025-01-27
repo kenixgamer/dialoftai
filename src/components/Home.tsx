@@ -1,6 +1,5 @@
 import { useRef, useState } from "react";
 import AITelecalling from "../components/AITelecalling";
-import BookDemoButton from "../components/BookDemoButton";
 import Contact from "../components/Contact";
 import CustomerReview from "../components/CustomerReview";
 import Feature from "../components/Feature";
@@ -123,7 +122,12 @@ const Home = () => {
                   alt="Youtube Icon"
                 />
               </button>
-              <BookDemoButton />
+              <button
+style={{background: ' linear-gradient(96.13deg, #8C01FA -11.84%, #000000 117.41%)'}}
+    className="font-helvetica text-white px-6 rounded-3xl py-2 grad max-w-40">
+  <a href="https://dashboard.dialoftai.com/" target="_blank" rel="noopener noreferrer">          Try Out Free
+  </a>
+  </button>
             </div>
             <TrustedBy />
             <Feature />
