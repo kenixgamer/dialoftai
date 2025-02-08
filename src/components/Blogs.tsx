@@ -7,25 +7,25 @@ const Blogs = () => {
       imageUrl : "/1.png",
       title : "7 Industries Revolutionized by AI Phone Agents (And Why Yours Should Be Next)",
       description : "Customer support technology is changing faster than ever, and Dialoft AI is here to help businesses keep up. Our AI phone agent software makes it easier to connect with customers, offering faster, more personal, and more efficient service every time.",
-      navigateLink : "/7_Industries_Revolutionized"
+      navigateLink : "/7-Industries-Revolutionized"
     },
     {
       imageUrl : "/2.png",
       title : "Revolutionizing Customer Support: The Dialoft AI Advantage",
       description : "Explore the future of customer service with AI-powered solutions that deliver fast, efficient, and personalized interactions. This blog reveals how Dialoft AI leverages machine learning and natural language processing to create seamless customer experiences, reduce support costs, and provide intelligent insights for businesses.",
-      navigateLink : "/Revolutionizing_Customer_Support"
+      navigateLink : "/Revolutionizing-Customer-Support"
     },
     {
       imageUrl : "/3.png",
       title : "Your Guide to Adopting AI-Driven Call Centers with Dialoft AI",
       description : "Dive into the evolution of customer service from traditional call centers to advanced AI-powered systems. Learn how Dialoft AI enables businesses to provide 24/7, personalized customer care with lower overhead, improved efficiency, and a human-like touch that transforms customer interactions.",
-      navigateLink : "/Your_Guide_to_Adopting_AI-Driven"
+      navigateLink : "/Your-Guide-to-Adopting-AI-Driven"
     },
     {
       imageUrl : "/4.png",
       title : "Top 10 Essential Features of AI-Based Telephony Solutions",
       description : "Uncover the game-changing features of AI phone systems that are revolutionizing customer service. This comprehensive guide explores how Dialoft AI's advanced telephony solutions offer natural voices, context awareness, seamless integrations, and continuous learning to deliver unprecedented customer support experiences.",
-      navigateLink : "/Top_10_Essential_Features"
+      navigateLink : "/Top-10-Essential-Features"
     },
   ])
   const navigate = useNavigate();

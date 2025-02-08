@@ -84,15 +84,96 @@ const TermsOfService = () => {
 
               <div>
                 <h3 className="text-xl font-semibold mb-2">4.2 Telemarketing Compliance</h3>
-                <p className="mb-4">Customers must adhere to all applicable telemarketing laws, including but not limited to:</p>
-                <ul className="list-disc pl-6 space-y-1">
-                  <li>Consent: Obtain prior express consent for autodialed or prerecorded calls/texts.</li>
-                  <li>Caller ID: Accurately display caller ID information.</li>
-                  <li>Do-Not-Call Registries: Regularly scrub numbers against federal, state, and Customer-specific DNC lists.</li>
-                  <li>Disclosure: Clearly disclose AI voice usage at the start of calls.</li>
-                  <li>Recording: Notify parties of call recordings and obtain consent where required.</li>
-                </ul>
-                <p className="mt-2">Failure to comply with telemarketing regulations may result in immediate suspension or termination of services.</p>
+                <div className="space-y-6">
+                  <p className="mb-4">
+                    You must not use the Services in violation of applicable laws governing the making and sending of calls and text messages. Customers are required to comply with all telemarketing, AI usage, and data privacy laws in the jurisdictions where they operate, including (but not limited to):
+                  </p>
+
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold mb-3">United States</h4>
+                    <ul className="list-disc pl-6 space-y-2">
+                      <li>Telemarketing and Consumer Fraud and Abuse Prevention Act</li>
+                      <li>Telephone Consumer Protection Act (TCPA)</li>
+                      <li>Rules promulgated by the Federal Communications Commission (FCC) pursuant to the TCPA</li>
+                      <li>Federal Trade Commission (FTC) Act</li>
+                      <li>FTC's Telemarketing Sales Rule (TSR)</li>
+                      <li>Do-Not-Call (DNC) registry</li>
+                      <li>Federal and state anti-wiretapping or eavesdropping laws</li>
+                    </ul>
+                  </div>
+
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold mb-3">Among other things, these laws and regulations may:</h4>
+                    <ol className="list-decimal pl-6 space-y-2">
+                      <li>Require you to obtain prior express consent for auto-dialed or prerecorded calls or texts sent or made to the called party.</li>
+                      <li>Require documentation or other proof of consent, which may need to be in writing for certain types of calls.</li>
+                      <li>Prohibit altering the caller ID information transmitted with a call or text with the intent to defraud, cause harm, or wrongfully obtain anything of value.</li>
+                      <li>Require the inclusion of an automated interactive telemarketing opt-out mechanism available at the outset of prerecorded messages.</li>
+                      <li>Require you to include a disclosure of AI voice use at the beginning of the call.</li>
+                      <li>Require you to notify parties to the call that their call is being recorded, seek prior express consent for the recording, and disclose the use of third-party vendors for call analytics.</li>
+                      <li>Prohibit making calls before 8 a.m. or after 9 p.m. at the called party's location.</li>
+                      <li>Prohibit calling a number listed on the national, state, or organization-specific Do-Not-Call (DNC) registry.</li>
+                    </ol>
+                  </div>
+
+                  <p className="mb-6">
+                    Customers using Dialoft AI must scrub phone numbers against the applicable federal, state, and Customer-specific Do-Not-Call (DNC) lists regularly, and in no event less frequently than every 31 days.
+                  </p>
+                  
+                  <p className="mb-6">
+                    If consumer consent is required under applicable laws to place calls using Dialoft AI, Customers must document proof of the required level of consent for each consumer they contact. Such documentation must be preserved for at least the minimum amount of time prescribed by applicable law, but in no case less than five years. Dialoft AI retains the right to audit your use of our Services to ensure compliance with the applicable laws.
+                  </p>
+
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold mb-3">International Markets</h4>
+                    <p className="mb-4">Customers are required to comply with all applicable telemarketing, AI usage, and data privacy laws in the jurisdictions where they operate, including but not limited to:</p>
+                    <ul className="list-disc pl-6 space-y-2">
+                      <li><span className="font-semibold">European Union (EU):</span> General Data Protection Regulation (GDPR) – Focuses on obtaining prior express consent for data usage, call recordings, and transparency in communication.</li>
+                      <li><span className="font-semibold">Canada:</span> Canada's Anti-Spam Legislation (CASL) – Requires prior express consent for calls/texts and includes provisions for the national DNC list.</li>
+                      <li><span className="font-semibold">Australia:</span> Australian Communications and Media Authority (ACMA) – Governs telemarketing, AI voice use, call recordings, and the national DNC registry.</li>
+                      <li><span className="font-semibold">United Kingdom:</span> Privacy and Electronic Communications Regulations (PECR) – Sets rules for telemarketing, including consent and call timing regulations.</li>
+                    </ul>
+                  </div>
+
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold mb-3">Among other things, these international laws may:</h4>
+                    <ol className="list-decimal pl-6 space-y-2">
+                      <li>Require explicit consent for calls, texts, and AI usage, including for auto-dialed or prerecorded messages.</li>
+                      <li>Prohibit altering caller ID information with intent to deceive or defraud.</li>
+                      <li>Require full transparency, including a disclosure of AI voice use at the beginning of any call.</li>
+                      <li>Mandate proper notification of call recordings, obtaining prior express consent where required.</li>
+                      <li>Prohibit calls made outside permissible timeframes, such as before 8 a.m. or after 9 p.m.</li>
+                      <li>Require regular scrubbing of contact lists against national and local DNC registries.</li>
+                    </ol>
+                  </div>
+
+                  <p className="mb-6">
+                    Customers are solely responsible for ensuring compliance with these laws and must consult legal professionals where necessary. Dialoft AI does not assume responsibility for ensuring Customer compliance but retains the right to audit your use of our Services.
+                  </p>
+
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold mb-3">Global Compliance Responsibilities</h4>
+                    <p className="mb-4">By using Dialoft AI, you agree to:</p>
+                    <ol className="list-decimal pl-6 space-y-2">
+                      <li>Abide by all applicable telemarketing, AI usage, and data privacy laws in the regions where you operate.</li>
+                      <li>Obtain, document, and maintain proper consent from consumers before making calls or sending texts.</li>
+                      <li>Regularly scrub your contact lists against applicable DNC registries to avoid contacting restricted numbers.</li>
+                      <li>Notify call recipients of AI voice use at the beginning of the call and provide opt-out mechanisms for prerecorded messages where required.</li>
+                      <li>Ensure transparency regarding call recording and obtain explicit consent if necessary.</li>
+                    </ol>
+                  </div>
+
+                  <p className="mb-6">
+                    Dialoft AI retains the right to review your activities on the platform to ensure compliance with all relevant laws and regulations. Any violations of these terms may result in the suspension or termination of your account without prior notice.
+                  </p>
+
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold mb-3">Important Notice</h4>
+                    <p>
+                      The laws and regulations mentioned above are not exhaustive, and Customers are solely responsible for compliance with the laws applicable in their regions. Dialoft AI strongly recommends consulting a qualified legal professional to ensure compliance with all relevant telemarketing, AI, and data privacy laws.
+                    </p>
+                  </div>
+                </div>
               </div>
 
               <div>
