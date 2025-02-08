@@ -26,7 +26,7 @@ const TeamMembers = () => {
         },
         {
             name: 'Harsh Parmar',
-            role: 'Frontend Developer',
+            role: 'Full Stack Developer',
             linkedIn: 'https://www.linkedin.com/in/hp2490/',
              imageUrl : "/harsh.avif"
         },
