@@ -100,6 +100,19 @@ const Home = () => {
                 >
                   Conduct Surveys
                 </span>
+                <span
+                  style={{ color: "#8C01FA" }}
+                  className="capitalize-first-word block"
+                >
+                  Answer Inquiries
+                  
+                </span>
+                <span
+                  style={{ color: "#8C01FA" }}
+                  className="capitalize-first-word block"
+                >
+                 Handle Customer Support
+                </span>
               </div>
             </h1>
             <p className="sm:text-lg text-sm font-helvetica md:text-xl text-gray-300 mb-8 max-w-xl mx-auto">

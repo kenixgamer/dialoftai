@@ -3,9 +3,7 @@ const TrustedBy = () => {
     { src: "/deepgram.png", alt: "Deepgram", invert: false },
     { src: "/Zapier.avif", alt: "Zapier", invert: true },
     { src: "/Twilio.avif", alt: "Twilio", invert: true },
-    { src: "/Stripe.avif", alt: "Stripe", invert: true },
-    // { src: "/IIElevenLabs.png", alt: "Eleven Labs", invert: true },
-    // { src: "/highLevel2.png", alt: "High Level", invert: true },
+    { src: "/openai.png", alt: "Open AI", invert: false },
   ];
 
   return (
