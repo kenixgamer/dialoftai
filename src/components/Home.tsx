@@ -49,7 +49,7 @@ const Home = () => {
           </div>
           <div className="relative max-w-7xl mx-auto px-4 py-10 text-center">
             <h1 className="text-white sm:mt-20 font-helvetica text-3xl sm:text-[50px] md:text-[60px] 3xl:text-[70px] leading-[1.27] tracking-[0px]">
-            Automate Outbound Calls With Voice AI Agents That{" "}
+            Automate Phone Calls With Voice AI Agents That{" "}
               <div className="word inline-block font-bold text-3xl sm:text-[50px]  md:text-[60px] 3xl:text-[70px]">
                 {/*  <p className="text-xl lg:text-2xl mb-4 font-bold">AI Phone Agents:</p> */}
                 <span
