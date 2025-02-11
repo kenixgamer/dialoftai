@@ -22,7 +22,7 @@ const Navigation = ({descriptionRef} : any) => {
       <Link to="/Human-vs-AI" className="hover:text-purple-400 ">Human VS AI</Link>
       <a href="#" onClick={handleClick}  className="hover:text-purple-400 ">Industries</a>
       <a href="#" onClick={scrollToBottom} className="hover:text-purple-400 ">Contact us</a>
-      <Link to={'/team'} className="hover:text-purple-400 ">Team</Link>
+      {/* <Link to={'/team'} className="hover:text-purple-400 ">Team</Link> */}
       </div>
       <div className="">
        <BookDemoButton/>

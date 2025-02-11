@@ -5,7 +5,7 @@ import Blog3 from './components/blog/Blog3.tsx';
 import Blog2 from './components/blog/Blog2.tsx';
 import Blog4 from './components/blog/Blog4.tsx';
 import HumanVsAI from './components/HumanVsAI.tsx';
-import TeamMembers from './components/TeamMembers.tsx';
+// import TeamMembers from './components/TeamMembers.tsx';
 import PrivacyPolicy from './components/policies/PrivacyPolicy.tsx';
 import RefundPolicy from './components/policies/RefundPolicy.tsx';
 import TermsOfService from './components/policies/TermsOfService.tsx';
@@ -19,7 +19,7 @@ const App = () => {
       <Route path="/Revolutionizing-Customer-Support" element={<Blog2/>}></Route>
       <Route path="/Your-Guide-to-Adopting-AI-Driven" element={<Blog3/>}></Route>
       <Route path="/Top-10-Essential-Features" element={<Blog4/>}></Route> 
-      <Route path="/team" element={<TeamMembers/>}></Route> 
+      {/* <Route path="/team" element={<TeamMembers/>}></Route>  */}
       <Route path='pricing' element={<PricingPage/>}></Route>
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/refund-policy" element={<RefundPolicy />} />
