@@ -46,14 +46,14 @@ const PricingCard = ({ tier, price, period, minutes, features, highlight, subtit
 const PricingPage = () => {
   const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'annual'>('monthly');
 
-  const monthlyPlans: any[] = [
+  const monthlyPlans: PricingPlan[] = [
     {
       tier: 'Starter',
       price: '39',
       period: 'month',
       planId: 'starter',
       subtitle: 'Best for small teams and startups',
-      minutes: '150 minutes/month ($0.26/min overage)',
+      minutes: '300 minutes/month ($0.13/min overage)',
       features: [
         '2 concurrent calls',
         'Community + Email support',
@@ -62,11 +62,11 @@ const PricingPage = () => {
     },
     {
       tier: 'Pro',
-      price: '250',
+      price: '249',
       period: 'month',
       planId: 'professional',
       subtitle: 'Best for growing teams and advanced features',
-      minutes: '1,000 minutes/month ($0.25/min overage)',
+      minutes: '1,800 minutes/month ($0.13/min overage)',
       features: [
         '5 concurrent calls',
         'Email + Priority support',
@@ -77,11 +77,11 @@ const PricingPage = () => {
     },
     {
       tier: 'Growth',
-      price: '625',
+      price: '629',
       period: 'month',
       planId: 'growth',
       subtitle: 'Best for large teams and customization needs',
-      minutes: '2,500 minutes/month ($0.25/min overage)',
+      minutes: '4,500 minutes/month ($0.13/min overage)',
       features: [
         '7 concurrent calls',
         'Priority + Slack channel support',
@@ -92,11 +92,11 @@ const PricingPage = () => {
     },
     {
       tier: 'Elite',
-      price: '1,250',
+      price: '1,249',
       period: 'month',
       planId: 'elite',
       subtitle: 'Best for agencies and high-volume clients',
-      minutes: '5,000 minutes/month ($0.25/min overage)',
+      minutes: '9,000 minutes/month ($0.13/min overage)',
       features: [
         '10 concurrent calls',
         'Dedicated support manager',
@@ -107,14 +107,14 @@ const PricingPage = () => {
     }
   ];
 
-  const annualPlans: any[] = [
+  const annualPlans: PricingPlan[] = [
     {
       tier: 'Starter',
       price: '35',
       period: 'month, billed annually',
       planId: 'starter',
       subtitle: 'Best for small teams and startups',
-      minutes: '150 minutes/month ($0.26/min overage)',
+      minutes: '300 minutes/month ($0.13/min overage)',
       features: [
         '2 concurrent calls',
         'Community + Email support',
@@ -123,11 +123,11 @@ const PricingPage = () => {
     },
     {
       tier: 'Pro',
-      price: '223',
+      price: '219',
       period: 'month, billed annually',
       planId: 'professional',
       subtitle: 'Best for growing teams and advanced features',
-      minutes: '1,000 minutes/month ($0.25/min overage)',
+      minutes: '1,800 minutes/month ($0.13/min overage)',
       features: [
         '5 concurrent calls',
         'Email + Priority support',
@@ -137,7 +137,7 @@ const PricingPage = () => {
       highlight: true
     }
   ];
-
+  
   const commonFeatures: string[] = [
     'Call transfers to human when needed',
     'Automated booking and scheduling on calls',
