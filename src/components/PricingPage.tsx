@@ -46,7 +46,7 @@ const PricingCard = ({ tier, price, period, minutes, features, highlight, subtit
 const PricingPage = () => {
   const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'annual'>('monthly');
 
-  const monthlyPlans: PricingPlan[] = [
+  const monthlyPlans: any[] = [
     {
       tier: 'Starter',
       price: '39',
@@ -107,7 +107,7 @@ const PricingPage = () => {
     }
   ];
 
-  const annualPlans: PricingPlan[] = [
+  const annualPlans: any[] = [
     {
       tier: 'Starter',
       price: '35',
